@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: black;
+}
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+form{
+    background-color: chocolate;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+
+}
+lable{
+    font-size: 20px;
+}
+input{
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px; 
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#new{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(20, 255, 243);
+    font-size: 15px;
+    
+}
+#cancle{
+    background-color: red;
+}
+#icon{
+    position: relative ;
+    
+}
+.fa-solid{
+    color: yellow;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
